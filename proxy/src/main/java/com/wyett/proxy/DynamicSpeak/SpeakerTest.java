@@ -1,6 +1,8 @@
 package com.wyett.proxy.DynamicSpeak;
 
 
+import org.junit.Test;
+
 /**
  * @author : wyettLei
  * @date : Created in 2019/9/20 16:55
@@ -8,7 +10,8 @@ package com.wyett.proxy.DynamicSpeak;
  */
 
 public class SpeakerTest {
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         Speaker speaker = new LoudSpeakerImpl();
         Speaker proxy = (Speaker) new SpeakerProxyFactory(speaker).newProxyInstance();
         proxy.speak();
