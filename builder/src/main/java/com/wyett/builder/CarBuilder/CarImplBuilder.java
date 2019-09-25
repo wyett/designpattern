@@ -11,8 +11,33 @@ public class CarImplBuilder implements CarBuilder {
     public CarImplBuilder() {
         this.car = new Car();
     }
-    public void setWhells(){
-        car.setWheels("4 whells");
+    @Override
+    public void setWheels(){
+        car.setWheels("4 wheels");
     }
 
+    @Override
+    public void setColor() {
+        car.setColor("red");
+    }
+
+    @Override
+    public void setChassis() {
+        car.setChassis("suv");
+    }
+
+    @Override
+    public void setEngine() {
+        car.setChassis("ferrari");
+    }
+
+    @Override
+    public void setShell() {
+        car.setShell("L");
+    }
+
+    @Override
+    public Car getCarBuilder() {
+        return car;
+    }
 }
