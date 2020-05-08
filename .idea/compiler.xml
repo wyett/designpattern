@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="factory" />
+        <module name="builder" />
+        <module name="chainofresponsiblity" />
+        <module name="decorator" />
+        <module name="observer" />
+        <module name="template" />
+        <module name="stategy" />
+        <module name="listener" />
+        <module name="proxy" />
+        <module name="singleson" />
+        <module name="invoke" />
+        <module name="adapter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adapter" target="1.8" />
+      <module name="builder" target="1.8" />
+      <module name="chainofresponsiblity" target="1.8" />
+      <module name="decorator" target="1.5" />
+      <module name="designpattern" target="1.5" />
+      <module name="factory" target="1.5" />
+      <module name="invoke" target="1.8" />
+      <module name="listener" target="1.8" />
+      <module name="observer" target="1.5" />
+      <module name="proxy" target="1.8" />
+      <module name="singleson" target="1.8" />
+      <module name="stategy" target="1.8" />
+      <module name="template" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -12,6 +12,15 @@
         <module>observer</module>
         <module>factory</module>
         <module>proxy</module>
+        <module>adapter</module>
+        <module>builder</module>
+        <module>chainofresponsiblity</module>
+        <module>decorator</module>
+        <module>invoke</module>
+        <module>singleson</module>
+        <module>stategy</module>
+        <module>template</module>
+        <module>listener</module>
     </modules>
 
 
